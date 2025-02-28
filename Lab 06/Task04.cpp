@@ -36,6 +36,7 @@ public:
 };
 
 class CheckingAccount : public Account {
+
 private:
     float overdraftLimit;
 
