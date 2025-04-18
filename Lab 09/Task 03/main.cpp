@@ -7,8 +7,8 @@
 using namespace std;
 
 int main() {
-    Course* c1 = new LectureCourse("CS101", 3, 30, 50);
-    Course* c2 = new LabCourse("CS101L", 1, 20, 30);
+    Course* c1 = new LectureCourse("CS102", 3, 30, 50);
+    Course* c2 = new LabCourse("CS102L", 1, 20, 30);
 
     c1->displayInfo();
     c1->calculateGrade();
